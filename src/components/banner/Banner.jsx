@@ -84,9 +84,11 @@ const Banner = () => {
             initial={{ y: 40, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 2.4 }}
-            className="flex justify-center -mt-6 mb-8 md:mt-0 md:mb-0 md:block md:absolute md:-bottom-2 md:-left-16 md:z-10"
+            className="absolute bottom-2 -left-6 z-10 md:-bottom-2 md:-left-16"
           >
-            <CodeWindow />
+            <div className="scale-[0.72] origin-bottom-left md:scale-100">
+              <CodeWindow />
+            </div>
           </motion.div>
         </div>
         <div>
