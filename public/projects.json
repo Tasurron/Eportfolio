@@ -1,0 +1,160 @@
+[{
+    "id": 1,
+    "title": "School Management System",
+    "description": "A role-based school management platform built with Next.js and ASP.NET Core, where admins, teachers, and students manage classes, assignments, and grading in one place.",
+    "details": "SchoolMS is a full-stack school management system with three user roles — Admin, Teacher, and Student — each with their own dashboard. Admins manage users, classes, and subjects, and assign teachers to the classes they teach. Teachers create assignments with deadlines and optional file attachments, then review and grade student submissions. Students view their assignments, submit their work before the deadline, and track their grades once reviewed. The system is built with Next.js on the frontend and ASP.NET Core Web API on the backend, using PostgreSQL for the database and JWT for authentication, with every access rule enforced on the server. It also includes OTP-based password reset via email, real-time in-app notifications, and a role-based search feature, so each user stays secure, updated, and able to quickly find what they need.",
+    "head": "https://i.ibb.co.com/YFQFrG8S/schl-Mgmt-Systm-1.png",
+    "imgs": [
+      "https://i.ibb.co.com/YFQFrG8S/schl-Mgmt-Systm-1.png",
+      "https://i.ibb.co.com/tT6T70sc/schl-Mgmt-Systm-2.png",
+      "https://i.ibb.co.com/fB9ckM0/schl-Mgmt-Systm-3.png",
+      "https://i.ibb.co.com/wZP6x08g/schl-Mgmt-Systm-4.png",
+      "https://i.ibb.co.com/ZpSysnFn/schl-Mgmt-Systm-5.png",
+      "https://i.ibb.co.com/rGRc5W4q/schl-Mgmt-Systm-6.png",
+      "https://i.ibb.co.com/JZrj4t8/schl-Mgmt-Systm-7.png",
+      "https://i.ibb.co.com/1GbX0V1V/schl-Mgmt-Systm-8.png",
+      "https://i.ibb.co.com/SXmy9dVQ/schl-Mgmt-Systm-9.png",
+      "https://i.ibb.co.com/Jwy6jJc3/schl-Mgmt-Systm-10.png",
+      "https://i.ibb.co.com/fV33GFMW/schl-Mgmt-Systm-11.png",
+      "https://i.ibb.co.com/tw9qZhGM/schl-Mgmt-Systm-12.png",
+      "https://i.ibb.co.com/G3WkVtHB/schl-Mgmt-Systm-13.png",
+      "https://i.ibb.co.com/BHCXxJVd/schl-Mgmt-Systm-14.png",
+      "https://i.ibb.co.com/TMb8PFhq/schl-Mgmt-Systm-15.png",
+      "https://i.ibb.co.com/Gv3KKnKZ/schl-Mgmt-Systm-16.png",
+      "https://i.ibb.co.com/nNt3GWzG/schl-Mgmt-Systm-17.png",
+      "https://i.ibb.co.com/1Gf1SMyc/schl-Mgmt-Systm-18.png",
+      "https://i.ibb.co.com/bR2h86W4/schl-Mgmt-Systm-19.png",
+      "https://i.ibb.co.com/w36rGcw/schl-Mgmt-Systm-20.png",
+      "https://i.ibb.co.com/ymvdj3Ww/schl-Mgmt-Systm-21.png",
+      "https://i.ibb.co.com/v6Yq9xGp/schl-Mgmt-Systm-22.png",
+      "https://i.ibb.co.com/mFXJDL22/schl-Mgmt-Systm-23.png"
+      
+    ]
+  },
+  
+  {
+    "id": 2,
+    "title": "Cosmo",
+    "description": "A simple, scalable, and user-friendly e-commerce website built with NestJS and Next.js to make Premium-Electronics online shop effortless, organized, and enjoyable.",
+    "details": "Cosmo is an e-commerce website built to provide a smooth and easy online shopping experience for premium electronics. The project is developed using NestJS for the backend and Next.js for the frontend.The website has a clean and simple design, so users can easily browse different product categories, see product details, and place orders without any confusion. It supports three types of users: Admin, Customer, and Seller, and each user has their own role and features in the system.For security, I used JWT authentication, which helps protect user data and ensures safe login and access. I also added an email service using a mailer system. For example, when an admin registers, a confirmation email is automatically sent to their email.The backend is built using a RESTful API, which helps the frontend and backend work smoothly together. The system handles user management, product control, and order processing in an organized way. The frontend is responsive and works well on different devices.In the future, I plan to add more features like payment gateway integration, product recommendations, and user reviews and ratings to make the platform even better.Overall, Cosmo shows how modern technologies can be used to build a simple, secure, and user-friendly e-commerce website.",
+    "isVertical": true,
+    "head": [
+      "https://i.ibb.co.com/RTcCG327/1-Screenshot-2026-04-06-at-20-30-36-COSMO-Premium-Electronics.png"
+      
+    ],
+    "imgs": [
+      "https://i.ibb.co.com/RTcCG327/1-Screenshot-2026-04-06-at-20-30-36-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/d0fTH7RM/2-Screenshot-2026-04-06-at-21-25-05-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/HDnwvn4m/3-Screenshot-2026-04-06-at-21-25-29-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/rRzt8Rr6/4-Screenshot-2026-04-06-at-21-25-59-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/nqmVpR8Y/5-Screenshot-2026-04-06-at-20-45-34-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/MDRjzCtT/6-Screenshot-2026-04-06-at-20-43-35-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/9HVX8pjf/7-Screenshot-2026-04-06-at-20-50-53-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/ZpYPfnTX/8-Screenshot-2026-04-06-at-20-54-03-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/Qj820L4w/9-Screenshot-2026-04-06-at-20-53-14-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/BHF0wtv7/10-Screenshot-2026-04-06-at-20-55-15-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/G10Qw5S/11-Screenshot-2026-04-06-at-20-56-48-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/1CLNVGC/12-Screenshot-2026-04-06-at-20-55-50-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/ZRFKvc2h/13-Screenshot-2026-04-06-at-20-56-20-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/pvGM5fYv/14-Screenshot-2026-04-06-at-20-57-07-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/v6P6ndxg/15-Screenshot-2026-04-06-at-20-58-11-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/BKdzwNg6/16-Screenshot-2026-04-06-at-21-19-49-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/F4gJS4GQ/17-Screenshot-2026-04-06-at-21-22-17-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/XrbxBzqp/18-Screenshot-2026-04-06-at-21-23-48-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/Qv3yM49P/19-Screenshot-2026-04-06-at-21-24-17-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/Q7g0Wcr0/20-Screenshot-2026-04-06-at-21-15-40-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/qFk4JYxB/21-Screenshot-2026-04-06-at-21-17-45-COSMO-Premium-Electronics.png",
+      "https://i.ibb.co.com/RG7jXd1r/22-Screenshot-2026-04-06-at-23-38-00-Welcome-to-E-Commerce-Admin-Panel.png"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Zaptech",
+    "description": "A full-featured e-commerce platform built with ASP.NET MVC and Entity Framework, where customers shop, sellers manage their stores, and admins oversee the entire platform.",
+    "details": "Zaptech is a full-featured e-commerce platform with three user roles — Customer, Seller, and Admin — each with their own set of tools. Customers can browse and filter products by category, add items to their cart or wishlist, apply coupons, and check out securely with Stripe, then track their orders and leave reviews. Sellers get their own dashboard to manage their product listings, stock levels, and discounts, track their orders, view their earnings, and see their sales visualized in interactive charts. Admins have full oversight of the platform, managing users, categories, orders, coupons, and payments, assigning delivery personnel, and exporting sales reports. The system is built with ASP.NET MVC and C# on the backend, using Entity Framework for data access and Bootstrap for the frontend, with Stripe integrated for online payments, Chart.js for sales visualization, and PDF generation for invoices and reports.",
+    "head": "https://i.ibb.co.com/GvWMRL8k/home1-Screenshot-7-4-2026-03424-localhost.jpg",
+    "imgs": [
+      "https://i.ibb.co.com/GvWMRL8k/home1-Screenshot-7-4-2026-03424-localhost.jpg",
+      "https://i.ibb.co.com/4wN3MLBL/home2screenshot-1775502042920.png",
+      "https://i.ibb.co.com/prBw8GTL/register-Screenshot-7-4-2026-03630-localhost.jpg",
+      "https://i.ibb.co.com/5WX9Tkmb/login-Screenshot-7-4-2026-0366-localhost.jpg",
+      "https://i.ibb.co.com/ycXHQr03/admin1-Screenshot-7-4-2026-03727-localhost.jpg",
+      "https://i.ibb.co.com/cSz66wYs/admin2-Screenshot-7-4-2026-03759-localhost.jpg",
+      "https://i.ibb.co.com/bMYshqVV/admin3-Screenshot-7-4-2026-03820-localhost.jpg",
+      "https://i.ibb.co.com/CKmvzmzb/admin4-Screenshot-7-4-2026-03841-localhost.jpg",
+      "https://i.ibb.co.com/hRg5ptJw/admin5-Screenshot-7-4-2026-03858-localhost.jpg",
+      "https://i.ibb.co.com/CpbSDk0N/admin6-Screenshot-7-4-2026-03912-localhost.jpg",
+      "https://i.ibb.co.com/jPmG6fNW/admin7-Screenshot-7-4-2026-03927-localhost.jpg",
+      "https://i.ibb.co.com/vvV201J8/customer1-Screenshot-2025-06-21-182143.png",
+      "https://i.ibb.co.com/YTJH2kb2/customer2-Screenshot-7-4-2026-04421-localhost.jpg",
+      "https://i.ibb.co.com/LD5zmqHT/seller1-Screenshot-7-4-2026-05228-localhost.jpg",
+      "https://i.ibb.co.com/mFqr0PQJ/seller2-Screenshot-7-4-2026-04559-localhost.jpg",   
+      "https://i.ibb.co.com/QvJhB4HD/seller3-Screenshot-7-4-2026-04632-localhost.jpg",
+      "https://i.ibb.co.com/gMJPy0cp/Screenshot-7-4-2026-04650-localhost.jpg",
+      "https://i.ibb.co.com/fGHWDZfC/Screenshot-7-4-2026-21332-localhost.jpg",
+      "https://i.ibb.co.com/DgrZ2gBM/home3-Screenshot-7-4-2026-0355-localhost.jpg",
+      "https://i.ibb.co.com/7xdk47Xp/home4-Screenshot-7-4-2026-03540-localhost.jpg"
+    ]
+  },
+
+    {
+    "id": 4,
+    "title": "Consumer Complaint Tracking System",
+    "description": "A simple, clean, and user-friendly complaint tracking system designed in Figma to make raising, following, and resolving customer complaints effortless and transparent.",
+    "details": "The Consumer Complaint Tracking System is a software engineering project that helps customers raise and follow up on complaints against sellers and companies, addressing the slow, non-transparent complaint handling many businesses in Bangladesh face. I designed the overall UI in Figma as an interactive prototype, from the landing page and sign up/sign in through to every dashboard screen, with all pages linked in a complete user flow. After signing in, customers get a dashboard showing their total, on-review, invalid, and solved complaints at a glance. They can create a complaint by entering the product category, seller name, title, and description, then track its status in a table and either give feedback on solved complaints or re-file invalid ones. They can also view seller ratings, chat live with support through text and attachments, and rate their overall experience with a short comment, with confirmation screens after each submission. The interface uses a clean blue theme with a sidebar for easy navigation, plus notification and profile menus. The project was completed as a team along with a full project report covering the problem statement, proposed solution, WBS, use case diagram, Gantt chart, and risk analysis.",
+    "head": "https://i.ibb.co.com/Xxg1PPvb/CCTS-1.jpg",
+    "imgs": [
+      "https://i.ibb.co.com/Xxg1PPvb/CCTS-1.jpg",
+      "https://i.ibb.co.com/5WxyJZmM/CCTS-2.jpg",
+      "https://i.ibb.co.com/FqJH1vvR/CCTS-3.jpg",
+      "https://i.ibb.co.com/HTSHc9PH/CCTS-4.jpg",
+      "https://i.ibb.co.com/G4q63hFX/CCTS-5.jpg",
+      "https://i.ibb.co.com/Qjv2qQrC/CCTS-6.jpg",
+      "https://i.ibb.co.com/LXxbQv0d/CCTS-7.jpg",
+      "https://i.ibb.co.com/sp6RgVp7/CCTS-8.jpg",
+      "https://i.ibb.co.com/tP2G6C09/CCTS-9.jpg",
+      "https://i.ibb.co.com/4nK21rwL/CCTS-10.jpg",
+      "https://i.ibb.co.com/m5Qt3hMD/CCTS-11.jpg",
+      "https://i.ibb.co.com/67c0Z6m3/CCTS-12.jpg",
+      "https://i.ibb.co.com/v4RxpK6m/CCTS-13.jpg"
+    ]
+  },
+ 
+  {
+    "id": 5,
+    "title": "Obstacle Odyssey",
+    "description": "Obstacle Odyssey is a physics-based, visually engaging platformer game built with OpenGL and C++, made to turn obstacle navigation into a challenging, exciting, and rewarding experience.",
+    "details": "Obstacle Odyssey is a 2D platformer game built with OpenGL and C++. The first level, 'The Beginner's Path,' introduces the game's core mechanics on a grassy landscape, where the player jumps across a series of platforms, avoids fire hazards and rotating line obstacles, and races toward a flag to complete the level. Passing each platform adds to a live score, and background music, a fail sound, and a level-complete sound reinforce the gameplay. The game features gravity-based movement and collision detection, with the player automatically reset to the start after falling or touching a hazard. It was built using OpenGL for real-time 2D rendering and animation, with GLUT handling window creation and keyboard input, all developed in C++ using Code::Blocks.",
+    "head": "https://i.ibb.co.com/QvD2pnnD/Level1-1.png",
+    "imgs": [
+      "https://i.ibb.co.com/QvD2pnnD/Level1-1.png",
+      "https://i.ibb.co.com/jZZFcchv/Level1-2.png",
+
+      "https://i.ibb.co.com/bRj8yYdj/Level1-3.png",
+
+      "https://i.ibb.co.com/fYjHtyNC/Level1-4.png",
+      "https://i.ibb.co.com/0VntdqjN/Level1-5.png"
+
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Inventory Management System",
+    "description": "A C# application for managing store inventories, supporting CRUD operations for tracking products efficiently.",
+    "details": "The Inventory Management System is a robust application developed in C# to simplify store management tasks. It enables users to perform essential operations, including creating, reading, updating, and deleting product records. Each product is assigned a unique ID, ensuring accurate tracking and management. The system allows store owners to monitor stock levels, organize product details, and streamline inventory processes effectively. With a focus on ease of use, the application features a clean interface that minimizes the learning curve for non-technical users. It incorporates error-handling mechanisms to prevent data inconsistencies and ensure reliability. The project is an excellent example of how C# can be utilized to build practical solutions for small to medium-sized businesses, highlighting my ability to develop applications that address real-world business needs.",
+    "head": "https://i.ibb.co.com/9mt7Fj2c/1-C-Screenshot-2026-04-16-122954.png",
+    "imgs": [
+      "https://i.ibb.co.com/9mt7Fj2c/1-C-Screenshot-2026-04-16-122954.png",
+      "https://i.ibb.co.com/sdr2qGmG/2-C-Screenshot-2026-04-16-123353.png",
+      "https://i.ibb.co.com/C5jhJyR8/3-C-Screenshot-2026-04-16-123912.png",
+      "https://i.ibb.co.com/Xf3K24V4/4-C-Screenshot-2026-04-16-131926.png",
+      "https://i.ibb.co.com/bRVMTRT/Whats-App-Image-2024-12-07-at-1-27-30-PM.jpg",
+      "https://i.ibb.co.com/kgm0NSW/Whats-App-Image-2024-12-07-at-1-27-30-PM-1.jpg",
+      "https://i.ibb.co.com/z2rYc4x/Whats-App-Image-2024-12-07-at-1-27-30-PM-2.jpg",
+      "https://i.ibb.co.com/D5fwXRk/Whats-App-Image-2024-12-07-at-1-27-31-PM.jpg",
+      "https://i.ibb.co.com/yqD9qSw/Whats-App-Image-2024-12-07-at-1-27-31-PM-1.jpg",
+      "https://i.ibb.co.com/Qkh3ntY/Whats-App-Image-2024-12-07-at-1-27-31-PM-2.jpg",
+      "https://i.ibb.co.com/BNGdtn3/Whats-App-Image-2024-12-13-at-2-06-41-AM.jpg"
+    ]
+  }
+]

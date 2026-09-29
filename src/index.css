@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animated body background: floating glow orbs + perspective grid floor */
+.bg-orb {
+  position: absolute;
+  border-radius: 9999px;
+  will-change: transform;
+}
+.bg-orb-1 { animation: orbFloat1 22s ease-in-out infinite; }
+.bg-orb-2 { animation: orbFloat2 28s ease-in-out infinite; }
+.bg-orb-3 { animation: orbFloat3 25s ease-in-out infinite; }
+
+@keyframes orbFloat1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(18vw, 14vh) scale(1.15); }
+}
+@keyframes orbFloat2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-16vw, 18vh) scale(0.9); }
+}
+@keyframes orbFloat3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(14vw, -16vh) scale(1.2); }
+}
+
+.bg-grid-floor {
+  position: absolute;
+  left: -50%;
+  right: -50%;
+  bottom: 0;
+  height: 60%;
+  overflow: hidden;
+  transform: perspective(450px) rotateX(62deg);
+  transform-origin: bottom;
+  -webkit-mask-image: linear-gradient(to top, black 10%, transparent 90%);
+  mask-image: linear-gradient(to top, black 10%, transparent 90%);
+}
+/* Grid lines slide with a GPU transform (no repaint every frame) */
+.bg-grid-floor::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -64px;
+  bottom: 0;
+  background-image:
+    linear-gradient(rgba(103, 232, 249, 0.14) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(167, 139, 250, 0.14) 1px, transparent 1px);
+  background-size: 64px 64px;
+  animation: gridFlow 6s linear infinite;
+  will-change: transform;
+}
+@keyframes gridFlow {
+  from { transform: translateY(0); }
+  to { transform: translateY(64px); }
+}
+
+/* Floating code symbols drifting in 3D depth */
+.code-symbol {
+  position: absolute;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-weight: 700;
+  animation: symbolDrift 20s ease-in-out infinite;
+  will-change: transform;
+}
+@keyframes symbolDrift {
+  0%, 100% { transform: translate3d(0, 0, 0) rotateY(0deg) rotateX(0deg); }
+  50% { transform: translate3d(0, -40px, 120px) rotateY(28deg) rotateX(12deg); }
+}
+
+/* Floating 3D code window in the banner */
+.code-window {
+  transform: perspective(900px) rotateY(-14deg) rotateX(6deg);
+  animation: windowFloat 7s ease-in-out infinite;
+}
+@keyframes windowFloat {
+  0%, 100% { transform: perspective(900px) rotateY(-14deg) rotateX(6deg) translateY(0); }
+  50% { transform: perspective(900px) rotateY(-8deg) rotateX(3deg) translateY(-14px); }
+}
+.code-cursor { animation: cursorBlink 1s steps(1) infinite; }
+@keyframes cursorBlink {
+  50% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bg-orb, .bg-grid-floor::before, .code-symbol, .code-window, .code-cursor { animation: none; }
+}
+
+:root {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
