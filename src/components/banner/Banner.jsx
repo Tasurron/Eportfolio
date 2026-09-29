@@ -78,7 +78,7 @@ const Banner = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1.8 }}
             src={img}
-            className="max-w-[220px] sm:max-w-xs md:max-w-lg rounded-full my-14"
+            className="max-w-[270px] sm:max-w-xs md:max-w-lg rounded-full my-14"
           />
           <motion.div
             initial={{ y: 40, opacity: 0 }}
@@ -91,7 +91,7 @@ const Banner = () => {
             </div>
           </motion.div>
         </div>
-        <div>
+        <div className="mt-6 lg:mt-0">
           {/* h1  */}
           <motion.h1
             variants={container(0.5)}
