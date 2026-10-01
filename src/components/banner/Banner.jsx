@@ -92,6 +92,14 @@ const Banner = () => {
           </motion.div>
         </div>
         <div className="mt-6 lg:mt-0">
+          <motion.p
+            variants={container(0.2)}
+            initial="hidden"
+            animate="visible"
+            className="mb-3 text-sm font-medium uppercase tracking-[0.25em] text-cyan-300"
+          >
+            Tasurron Nazerin Nafisa
+          </motion.p>
           {/* h1  */}
           <motion.h1
             variants={container(0.5)}
