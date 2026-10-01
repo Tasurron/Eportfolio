@@ -6,11 +6,8 @@ import {
   SiCplusplus,
   SiNextdotjs,
   SiNestjs,
-  SiJavascript,
-  SiTailwindcss,
   SiHtml5,
   SiCss3,
-  SiFigma,
 } from "react-icons/si";
 
 const codeSymbols = [
@@ -19,11 +16,8 @@ const codeSymbols = [
   { Icon: SiCplusplus, top: "58%", left: "6%", size: "2.4rem", color: "text-cyan-300/20", delay: "-5s", duration: "24s" },
   { Icon: SiNextdotjs, top: "78%", left: "26%", size: "2.4rem", color: "text-neutral-300/20", delay: "-10s", duration: "21s" },
   { Icon: SiNestjs, top: "4%", left: "44%", size: "2.4rem", color: "text-pink-300/20", delay: "-9s", duration: "24s" },
-  { Icon: SiJavascript, top: "40%", left: "14%", size: "2.4rem", color: "text-purple-300/20", delay: "-7s", duration: "23s" },
-  { Icon: SiTailwindcss, top: "20%", left: "68%", size: "2.4rem", color: "text-cyan-300/20", delay: "-12s", duration: "25s" },
   { Icon: SiHtml5, top: "62%", left: "64%", size: "2.4rem", color: "text-pink-300/20", delay: "-13s", duration: "22s" },
   { Icon: SiCss3, top: "90%", left: "46%", size: "2.4rem", color: "text-purple-300/20", delay: "-4s", duration: "25s" },
-  { Icon: SiFigma, top: "72%", left: "92%", size: "2.4rem", color: "text-pink-300/20", delay: "-14s", duration: "26s" },
 ];
 
 const MainLayout = () => {
