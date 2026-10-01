@@ -3,46 +3,26 @@ import Contact from "../contact/Contact";
 import { Outlet } from "react-router";
 import {
   SiDotnet,
-  SiSharp,
   SiCplusplus,
   SiNextdotjs,
   SiNestjs,
   SiJavascript,
-  SiTypescript,
   SiTailwindcss,
   SiHtml5,
   SiCss3,
-  SiBootstrap,
   SiFigma,
 } from "react-icons/si";
 
 const codeSymbols = [
-  { text: "</>", top: "8%", left: "6%", size: "2.4rem", color: "text-cyan-300/25", delay: "0s", duration: "16s" },
-  { text: "{ }", top: "18%", left: "82%", size: "3rem", color: "text-purple-300/25", delay: "-4s", duration: "20s" },
-  { text: "=>", top: "55%", left: "90%", size: "2.2rem", color: "text-cyan-300/20", delay: "-2s", duration: "22s" },
-  { text: "( )", top: "70%", left: "12%", size: "2.6rem", color: "text-purple-300/20", delay: "-10s", duration: "19s" },
-  { text: "</>", top: "82%", left: "70%", size: "2rem", color: "text-pink-300/20", delay: "-6s", duration: "17s" },
-  { text: "[ ]", top: "30%", left: "48%", size: "1.8rem", color: "text-cyan-300/15", delay: "-12s", duration: "24s" },
-  { text: "//", top: "90%", left: "36%", size: "2.2rem", color: "text-purple-300/20", delay: "-3s", duration: "21s" },
-  { text: "&&", top: "12%", left: "34%", size: "1.8rem", color: "text-pink-300/15", delay: "-9s", duration: "23s" },
-  // code syntax
-  { text: "async / await", top: "48%", left: "70%", size: "1rem", color: "text-purple-300/20", delay: "-11s", duration: "25s" },
-  { text: "git commit -m", top: "76%", left: "44%", size: "1rem", color: "text-pink-300/20", delay: "-1s", duration: "27s" },
-  { text: "SELECT * FROM", top: "88%", left: "82%", size: "0.95rem", color: "text-pink-300/15", delay: "-9s", duration: "26s" },
-  { text: "public class", top: "66%", left: "78%", size: "0.95rem", color: "text-cyan-300/15", delay: "-4s", duration: "29s" },
-  { text: "import React", top: "92%", left: "8%", size: "0.95rem", color: "text-purple-300/20", delay: "-6s", duration: "25s" },
   // tech stack icons
   { Icon: SiDotnet, top: "14%", left: "22%", size: "2.4rem", color: "text-purple-300/25", delay: "-2s", duration: "20s" },
-  { Icon: SiSharp, top: "34%", left: "88%", size: "2.4rem", color: "text-cyan-300/25", delay: "-8s", duration: "22s" },
   { Icon: SiCplusplus, top: "58%", left: "6%", size: "2.4rem", color: "text-cyan-300/20", delay: "-5s", duration: "24s" },
   { Icon: SiNextdotjs, top: "78%", left: "26%", size: "2.4rem", color: "text-neutral-300/20", delay: "-10s", duration: "21s" },
   { Icon: SiNestjs, top: "4%", left: "44%", size: "2.4rem", color: "text-pink-300/20", delay: "-9s", duration: "24s" },
   { Icon: SiJavascript, top: "40%", left: "14%", size: "2.4rem", color: "text-purple-300/20", delay: "-7s", duration: "23s" },
-  { Icon: SiTypescript, top: "84%", left: "58%", size: "2.4rem", color: "text-cyan-300/20", delay: "-3s", duration: "23s" },
   { Icon: SiTailwindcss, top: "20%", left: "68%", size: "2.4rem", color: "text-cyan-300/20", delay: "-12s", duration: "25s" },
   { Icon: SiHtml5, top: "62%", left: "64%", size: "2.4rem", color: "text-pink-300/20", delay: "-13s", duration: "22s" },
   { Icon: SiCss3, top: "90%", left: "46%", size: "2.4rem", color: "text-purple-300/20", delay: "-4s", duration: "25s" },
-  { Icon: SiBootstrap, top: "8%", left: "90%", size: "2.4rem", color: "text-purple-300/20", delay: "-9s", duration: "24s" },
   { Icon: SiFigma, top: "72%", left: "92%", size: "2.4rem", color: "text-pink-300/20", delay: "-14s", duration: "26s" },
 ];
 
